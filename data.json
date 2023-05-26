@@ -1,0 +1,64 @@
+{
+    "RespuestaDeCliente": {
+      "fechaEncuesta": "2023-05-25",
+      "respuestaSeleccionada": "Option A"
+    },
+    "Llamada": {
+      "descripcionOperador": "Operator description",
+      "detalleAccionRequerida": "Action required details",
+      "duracion": 120,
+      "encuestaEnviada": true,
+      "observacionAuditor": "Auditor observation",
+      "cliente": {
+        "dni": "12345678",
+        "nombreCompleto": "John Doe",
+        "nroCelular": "987654321"
+      },
+      "cambioEstado": {
+        "fechaHoraInicio": "2023-05-25T10:00:00",
+        "estado": {
+          "nombre": "Iniciada"
+        }
+      },
+      "respuestasDeEncuesta": [
+        {
+          "fechaEncuesta": "2023-05-25",
+          "respuestaSeleccionada": "Option B"
+        },
+        {
+          "fechaEncuesta": "2023-05-24",
+          "respuestaSeleccionada": "Option A"
+        }
+      ]
+    },
+    "Cliente": {
+      "dni": "12345678",
+      "nombreCompleto": "John Doe",
+      "nroCelular": "987654321"
+    },
+    "Estado": {
+      "nombre": "Iniciada"
+    },
+    "CambioEstado": {
+      "fechaHoraInicio": "2023-05-25T10:00:00",
+      "estado": {
+        "nombre": "Iniciada"
+      }
+    },
+    "RespuestaPosible": {
+      "descripcion": "Option A"
+    },
+    "Pregunta": {
+      "pregunta": "Question 1",
+      "respuesta": "Option A"
+    },
+    "Encuesta": {
+      "fechaFinVigencia": "2023-06-30",
+      "descripcion": "Customer satisfaction survey",
+      "pregunta": {
+        "pregunta": "Question 1",
+        "respuesta": "Option A"
+      }
+    }
+  }
+  

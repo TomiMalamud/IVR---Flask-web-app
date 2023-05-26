@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{url_for('static',filename='css/main.css')}}" rel="stylesheet">
+    <title>Consulta de Llamadas</title>
+  </head>
+  <body>
+    <h1 class="text-3xl font-bold underline mb-10">Consulta de Llamadas</h1>
+    <form method="POST" action="/surveys" class="mt-10">
+      <label for="initial_date" class="block text-sm text-gray-500">Fecha desde:</label>
+      <input type="date" name="initial_date" id="initial_date" class="block  mt-2 w-full placeholder-gray-400/70  rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 " required>
+
+      <label for="end_date" class="m-2 block text-sm text-gray-500">Fecha hasta:</label>
+      <input type="date" name="end_date" id="end_date" class="block  mt-2 w-full placeholder-gray-400/70  rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 "  required>
+
+      <input type="submit" value="Buscar Llamadas" class="border-t-neutral-900 p-3 bg-slate-100">
+    </form>
+  </body>
+</html>
